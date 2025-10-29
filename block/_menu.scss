@@ -40,10 +40,9 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: space-evenly;
             border-radius: 20px;
             position: relative;
-            
             &-img{
                 width: 110px;
                 position: absolute;
