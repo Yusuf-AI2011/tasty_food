@@ -1,0 +1,53 @@
+.navbar-wrapper {
+  width: 100%;
+  padding: 50px 0px 0px 0px;
+}
+
+.navbar {
+  width: 90%;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__icon {
+    transition: all 0.5s;
+  }
+
+  &__icon:hover {
+    color: #90E051;
+  }
+
+  &__link {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25.5738px;
+    line-height: 42px;
+    color: #000000;
+    transition: all 0.5s;
+  }
+
+  &__link:hover {
+    color: #90E051;
+  }
+
+  &__icon {
+    font-size: 30px;
+  }
+}
