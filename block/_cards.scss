@@ -39,3 +39,11 @@
     color: #000000;
   }
 }
+
+@media only screen and (max-width: 1024px) {
+    .cards {
+        &__cards {
+            flex-wrap: wrap;
+        }
+    }
+}
