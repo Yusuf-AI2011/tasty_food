@@ -1,0 +1,41 @@
+.cards-wrapper {
+  width: 100%;
+  padding: 100px 0px 0px 0px;
+}
+
+.cards {
+  width: 90%;
+  margin: auto;
+
+  &__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+
+  &__text {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.9429px;
+    line-height: 21px;
+    color: #000000;
+  }
+
+  &__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__number {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26.5715px;
+    line-height: 32px;
+    color: #000000;
+  }
+}
