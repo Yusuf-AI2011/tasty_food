@@ -1,0 +1,151 @@
+.about__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 80px 0;
+  background: #fff;
+}
+
+.about {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  gap: 40px;
+
+  &__subtitle {
+    position: relative;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 40px 40px;
+    width: 480px;
+    top: 200px;
+    right: -100px;
+    z-index: 3;
+
+    h3 {
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40.2598px;
+      line-height: 58px;
+      color: #000000;
+
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: #000000;
+    }
+
+    .about__burger__left {
+      position: absolute;
+      top: -40px;
+      left: -40px;
+      width: 130px;
+      transform: rotate(-10deg);
+    }
+  }
+
+  &__image {
+    position: relative;
+    width: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+    }
+
+    .about__burger__right {
+      position: absolute;
+      bottom: -10px;
+      right: -20px;
+      width: 170px;
+      transform: rotate(5deg);
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .about {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+
+    &__subtitle {
+      width: 100%;
+      max-width: 600px;
+      text-align: center;
+      padding: 25px 30px;
+
+      .about__burger__left {
+        top: -30px;
+        left: -30px;
+        width: 90px;
+      }
+    }
+
+    &__image {
+      width: 100%;
+      max-width: 700px;
+
+      .about__burger__right {
+        bottom: -40px;
+        right: -30px;
+        width: 110px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .about {
+    width: 100%;
+    padding: 0 20px;
+    gap: 40px;
+
+    &__subtitle {
+      width: 100%;
+      max-width: 100%;
+      padding: 20px;
+      right: 0;
+      position: absolute;
+      top: 280px;
+
+      h3 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 13px;
+      }
+      .about__burger__left {
+        top: -25px;
+        left: -20px;
+        width: 80px;
+      }
+    }
+
+    &__image {
+      width: 100%;
+      position: absolute;
+      .about__burger__right {
+        bottom: -30px;
+        right: -20px;
+        width: 90px;
+      }
+    }
+  }
+}
