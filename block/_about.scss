@@ -23,7 +23,7 @@
     padding: 40px 40px;
     width: 480px;
     top: 200px;
-    right: -100px;
+    right: -150px;
     z-index: 3;
 
     h3 {
@@ -90,6 +90,9 @@
       max-width: 600px;
       text-align: center;
       padding: 25px 30px;
+      position: relative;
+      top: 600px;
+      right: 200px;
 
       .about__burger__left {
         top: -30px;
